@@ -1,0 +1,10 @@
+com.vnm.virtualshopping.launcher-pngs-0 C:\Program Files\mingw-w64\cpp for permission\poj1\Virtual\UnityARshoopingAPP\AR virtual\gr1\launcher\build\generated\res\pngs\debug
+com.vnm.virtualshopping.launcher-resValues-1 C:\Program Files\mingw-w64\cpp for permission\poj1\Virtual\UnityARshoopingAPP\AR virtual\gr1\launcher\build\generated\res\resValues\debug
+com.vnm.virtualshopping.launcher-rs-2 C:\Program Files\mingw-w64\cpp for permission\poj1\Virtual\UnityARshoopingAPP\AR virtual\gr1\launcher\build\generated\res\rs\debug
+com.vnm.virtualshopping.launcher-mergeDebugResources-3 C:\Program Files\mingw-w64\cpp for permission\poj1\Virtual\UnityARshoopingAPP\AR virtual\gr1\launcher\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.vnm.virtualshopping.launcher-mergeDebugResources-4 C:\Program Files\mingw-w64\cpp for permission\poj1\Virtual\UnityARshoopingAPP\AR virtual\gr1\launcher\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.vnm.virtualshopping.launcher-merged_res-5 C:\Program Files\mingw-w64\cpp for permission\poj1\Virtual\UnityARshoopingAPP\AR virtual\gr1\launcher\build\intermediates\merged_res\debug
+com.vnm.virtualshopping.launcher-debug-6 C:\Program Files\mingw-w64\cpp for permission\poj1\Virtual\UnityARshoopingAPP\AR virtual\gr1\launcher\src\debug\res
+com.vnm.virtualshopping.launcher-main-7 C:\Program Files\mingw-w64\cpp for permission\poj1\Virtual\UnityARshoopingAPP\AR virtual\gr1\launcher\src\main\res
+com.vnm.virtualshopping.launcher-packaged_res-8 C:\Program Files\mingw-w64\cpp for permission\poj1\Virtual\UnityARshoopingAPP\AR virtual\gr1\unityLibrary\FirebaseApp.androidlib\build\intermediates\packaged_res\debug
+com.vnm.virtualshopping.launcher-packaged_res-9 C:\Program Files\mingw-w64\cpp for permission\poj1\Virtual\UnityARshoopingAPP\AR virtual\gr1\unityLibrary\build\intermediates\packaged_res\debug

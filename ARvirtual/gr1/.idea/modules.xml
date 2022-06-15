@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gr1.iml" filepath="$PROJECT_DIR$/.idea/modules/gr1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/launcher/gr1.launcher.iml" filepath="$PROJECT_DIR$/.idea/modules/launcher/gr1.launcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/launcher/gr1.launcher.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/launcher/gr1.launcher.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/launcher/gr1.launcher.main.iml" filepath="$PROJECT_DIR$/.idea/modules/launcher/gr1.launcher.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/launcher/gr1.launcher.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/launcher/gr1.launcher.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unityLibrary/gr1.unityLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/unityLibrary/gr1.unityLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unityLibrary/FirebaseApp.androidlib/gr1.unityLibrary.FirebaseApp.androidlib.iml" filepath="$PROJECT_DIR$/.idea/modules/unityLibrary/FirebaseApp.androidlib/gr1.unityLibrary.FirebaseApp.androidlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unityLibrary/FirebaseApp.androidlib/gr1.unityLibrary.FirebaseApp.androidlib.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/unityLibrary/FirebaseApp.androidlib/gr1.unityLibrary.FirebaseApp.androidlib.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unityLibrary/FirebaseApp.androidlib/gr1.unityLibrary.FirebaseApp.androidlib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/unityLibrary/FirebaseApp.androidlib/gr1.unityLibrary.FirebaseApp.androidlib.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unityLibrary/FirebaseApp.androidlib/gr1.unityLibrary.FirebaseApp.androidlib.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/unityLibrary/FirebaseApp.androidlib/gr1.unityLibrary.FirebaseApp.androidlib.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unityLibrary/gr1.unityLibrary.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/unityLibrary/gr1.unityLibrary.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unityLibrary/gr1.unityLibrary.main.iml" filepath="$PROJECT_DIR$/.idea/modules/unityLibrary/gr1.unityLibrary.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unityLibrary/gr1.unityLibrary.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/unityLibrary/gr1.unityLibrary.unitTest.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,79 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.vnm.virtualshopping.launcher-mergeDebugResources-3:/values/values.xml",
+            "map": [
+                {
+                    "source": "C:\\Program Files\\mingw-w64\\cpp for permission\\poj1\\Virtual\\UnityARshoopingAPP\\AR virtual\\gr1\\launcher\\src\\main\\res\\values\\ids.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "46",
+                        "endOffsets": "97"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "45",
+                        "endOffsets": "96"
+                    }
+                },
+                {
+                    "source": "C:\\Program Files\\mingw-w64\\cpp for permission\\poj1\\Virtual\\UnityARshoopingAPP\\AR virtual\\gr1\\launcher\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "2,2",
+                        "startOffsets": "55,107",
+                        "endColumns": "50,65",
+                        "endOffsets": "103,170"
+                    },
+                    "to": {
+                        "startLines": "3,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "101,578",
+                        "endColumns": "52,67",
+                        "endOffsets": "149,641"
+                    }
+                },
+                {
+                    "source": "C:\\Program Files\\mingw-w64\\cpp for permission\\poj1\\Virtual\\UnityARshoopingAPP\\AR virtual\\gr1\\launcher\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "5,2,7",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "190,53,288",
+                        "endLines": "6,4,10",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "286,188,513"
+                    },
+                    "to": {
+                        "startLines": "14,16,19",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1252,1352,1490",
+                        "endLines": "15,18,22",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "1347,1485,1712"
+                    }
+                },
+                {
+                    "source": "C:\\Program Files\\mingw-w64\\cpp for permission\\poj1\\Virtual\\UnityARshoopingAPP\\AR virtual\\gr1\\unityLibrary\\FirebaseApp.androidlib\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,204,349,479,562,666,776,896,1002",
+                        "endColumns": "148,144,129,82,103,109,119,105,82",
+                        "endOffsets": "199,344,474,557,661,771,891,997,1080"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "154,303,448,646,729,833,943,1063,1169",
+                        "endColumns": "148,144,129,82,103,109,119,105,82",
+                        "endOffsets": "298,443,573,724,828,938,1058,1164,1247"
+                    }
+                }
+            ]
+        }
+    ]
+}
