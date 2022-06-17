@@ -7,21 +7,17 @@ using UnityEngine;
 public class productManeger : MonoBehaviour
 {
     // populate propertis to be uploaded to databease
-    public Text productTitle;
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    void cheakDataValidity(){
+    public string productTitle;
+    public string product_discription;
+    public string product_price;
+    public string product_image_hash;
+    public string product_model_hash;
+    public productManeger(){
 
     }
-    public void AddProductToDatabase(){
+    public string AddProductToDatabase(){
         //if data valid upload to data base as json
+        string json=JsonUtility.ToJson(this);
+        return json;
     }
 }

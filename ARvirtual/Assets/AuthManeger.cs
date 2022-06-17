@@ -15,7 +15,7 @@ public class AuthManeger : MonoBehaviour
     [Header("Firebase")]
     public DependencyStatus dependencyStatus;
     public FirebaseAuth auth;    
-    public FirebaseUser User;
+    public static FirebaseUser User;
 
     //Login variables
     [Header("Login")]
@@ -169,7 +169,7 @@ public class AuthManeger : MonoBehaviour
                 //User has now been created
                 //Now get the result
                 User = RegisterTask.Result;
-
+                
                 if (User != null)
                 {
                     //Create a user profile and set the username

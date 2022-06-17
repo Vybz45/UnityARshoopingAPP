@@ -66,12 +66,16 @@ public class FileBrowserUiComponent : MonoBehaviour
         }
     }
     internal void FileTypeValidate_Forward(){
+
         if(fileBrowserManeger.targetIs_image){
+            
             string thisExtenion=fileBrowserManeger.targetExtention_image;
             bool isValid=displayName.EndsWith(thisExtenion);
             
             if(isValid){
                 SellingAddproduct.SetImagePath(filePath);
+                 print("image file path.,......"+filePath);
+                print("extension is match....."+thisExtenion);
             }else{
                 print("extension no match...Expected.."+thisExtenion);
                 SellingAddproduct.SetImagePath(null);
@@ -82,6 +86,8 @@ public class FileBrowserUiComponent : MonoBehaviour
             
             if(isValid){
                 SellingAddproduct.SetModelPath(filePath);
+                print("model file path.,......"+filePath);
+                print("extension is match....."+thisExtenion);
             }else{
                 print("extension no match...Expected.."+thisExtenion);
                  SellingAddproduct.SetModelPath(null);

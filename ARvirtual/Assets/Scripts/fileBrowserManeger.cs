@@ -65,12 +65,12 @@ public class fileBrowserManeger : MonoBehaviour
          DirectoryInfo df=new DirectoryInfo(filepath);
         FileInfo[] info=df.GetFiles();
         foreach(FileInfo file in df.GetFiles()){
-            print(info.Length);
-            print(file.Name);
+            //print(info.Length);
+           // print(file.Name);
             GameObject _newUiComp;
             _newUiComp= Instantiate(ui_component,uiComp_container);
             FileBrowserUiComponent _tmpComp=_newUiComp.GetComponent<FileBrowserUiComponent>();
-            _tmpComp.SeFiletData(file.Name,filepath);
+            _tmpComp.SeFiletData(file.Name,file.FullName);
             
         }
     }
@@ -79,9 +79,9 @@ public class fileBrowserManeger : MonoBehaviour
         
        
        DirectoryInfo[] dirIn= d.GetDirectories();
-        foreach(FileSystemInfo dir in d.GetFileSystemInfos()){
-            print(dirIn.Length);
-            print(dir.Name);
+        foreach(FileSystemInfo dir in d.GetDirectories()){
+           // print(dirIn.Length);
+           // print(dir.Name);
             
             GameObject _newUiComp;
             _newUiComp= Instantiate(ui_component,uiComp_container);
@@ -95,8 +95,8 @@ public class fileBrowserManeger : MonoBehaviour
         DirectoryInfo d=new DirectoryInfo(filepath);
        DirectoryInfo[] dirIn= d.GetDirectories();
         foreach(DirectoryInfo dir in d.GetDirectories()){
-            print(dirIn.Length);
-            print(dir.Name);
+            //print(dirIn.Length);
+           // print(dir.Name);
         
             GameObject _newUiComp;
             _newUiComp= Instantiate(ui_component,uiComp_container);
@@ -118,7 +118,7 @@ public class fileBrowserManeger : MonoBehaviour
         //set defalt dir pathe in run time ---canot be called on start and awake
         //must be called befor browser ui
         #if UNITY_EDITOR_WIN
-            defualtDirPath=Application.dataPath;
+            defualtDirPath=Application.persistentDataPath;
         #endif
         #if UNITY_ANDROID
            //defualtDirPath="/storage/emulated/0";
@@ -167,9 +167,10 @@ public class fileBrowserManeger : MonoBehaviour
         Debug.Log(_sample.LastIndexOf('/')) ;
         if(_ind<0)_ind=0;
         if(_ind==0)_ind=_sample.LastIndexOf(c);
-        _result=_sample.Remove(_ind);
-        Debug.Log(_result) ;
-        
+        if(_ind>3) _result=_sample.Remove(_ind);
+        else _result=_sample.Remove(_ind+1);
+       // Debug.Log(_result) ;
+       // return _sample;
         return _result;
     }
     public static void fileBrowser_UI_state_handler(){

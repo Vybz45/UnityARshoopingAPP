@@ -34,8 +34,8 @@ public class modelLod : MonoBehaviour
        
         filepath=tmp;
         cloudManeger cman=this.gameObject.GetComponent<cloudManeger>();
-        cman.SetRefrence();
-        cman.uploadFileToCloud(filepath);//upload to cloud from filedir
+      //  cman.SetRefrence();
+      //  cman.uploadFileToCloud(filepath);//upload to cloud from filedir
 
         string downloadedfilesDir=Application.dataPath+"/files_test_resorces";
         cman.DownloadFromCloud("empty",downloadedfilesDir);
@@ -47,8 +47,8 @@ public class modelLod : MonoBehaviour
        
         filepath=tmp;
         cloudManeger cman=this.gameObject.GetComponent<cloudManeger>();
-        cman.SetRefrence();
-        cman.uploadFileToCloud(filepath);//upload to cloud from filedir
+        //cman.SetRefrence();
+       // cman.uploadFileToCloud(filepath);//upload to cloud from filedir
     }
     public void getFilePath(){
         //file explorer
